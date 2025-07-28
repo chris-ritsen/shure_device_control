@@ -1,0 +1,13 @@
+[project]
+name = "shure-control"
+version = "0.0.1"
+description = "Control Shure wireless audio devices"
+requires-python = ">=3.10"
+dependencies = [
+  "argcomplete",
+  "redis",
+  "sd_notify",
+  "systemd",
+  "textual-dev>=1.7.0",
+  "textual[dev]",
+]
